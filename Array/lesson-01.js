@@ -30,7 +30,7 @@ console.log(brands);
 var newBrand = brands.unshift('Adda');
 console.log(brands);
 
-// Find the index of an item in the Array
+// Find the index of an item
 brands.push('Stylo');
 var pos = brands.indexOf('Stylo');
 console.log(brands, pos);
