@@ -29,3 +29,8 @@ console.log(brands);
 // Add to the front of an Array
 var newBrand = brands.unshift('Adda');
 console.log(brands);
+
+// Find the index of an item in the Array
+brands.push('Stylo');
+var pos = brands.indexOf('Stylo');
+console.log(brands, pos);
