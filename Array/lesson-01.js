@@ -21,3 +21,6 @@ console.log(brands)
 // Remove from the end of an Array
 var removeLastOne = brands.pop();
 console.log(brands)
+
+// Remove from the front of an Array
+var firstBrand = brands.shift();
