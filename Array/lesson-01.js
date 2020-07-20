@@ -34,3 +34,7 @@ console.log(brands);
 brands.push('Stylo');
 var pos = brands.indexOf('Stylo');
 console.log(brands, pos);
+
+// Remove an item by index position
+var removeBrand = brands.splice(pos, 1);
+console.log(brands);
